@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "tYyRbKTWWSh5baJgqUjg8JclAV5EiD10JxVsnhr4iIV12kwW7ITy36ufQmxCFiIXusjsHc3FHUD2jm355ATdQA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\trowi\\source\\repos\\Zefugi and the Machine\\zatm-enpeacey\\Enpeacey.Backend\\Enpeacey.Backend\\Enpeacey.Backend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\trowi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\trowi\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\trowi\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\trowi\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\trowi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\trowi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
