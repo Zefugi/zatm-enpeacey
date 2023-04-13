@@ -13,6 +13,14 @@ builder.Services.AddSwaggerGen(c =>
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
     c.OperationFilter<ApiKeyHeaderFilter>();
 });
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowUE4Origin",
+    builder => builder
+        .AllowAnyOrigin() // Replace this with your UE4 game's domain or IP when deploying for production
+        .AllowAnyHeader()
+        .AllowAnyMethod());
+});
 
 var app = builder.Build();
 
@@ -25,6 +33,8 @@ if (app.Environment.IsDevelopment())
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
     });
 }
+
+app.UseCors("AllowUE4Origin");
 
 app.UseHttpsRedirection();
 

@@ -9,9 +9,12 @@ namespace Enpeacey.Backend.Controllers
     public class DebugController : ControllerBase
     {
         [HttpGet]
-        public string Get()
+        public ActionResult<object> Get()
         {
-            return "Hello, World!";
+            return new Response
+            {
+                Message = "Hello, World!"
+            };
         }
 
         [HttpGet("Auth")]
